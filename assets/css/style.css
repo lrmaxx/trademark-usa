@@ -5537,9 +5537,7 @@ h6,
 /*******************************************************/
 
 @media only screen and (max-width: 575px) {
-    .hero-content {
-        padding-right: 66px;
-    }
+
 }
 
 .hero-content h1 {
@@ -5695,7 +5693,6 @@ h6,
 
 @media only screen and (max-width: 575px) {
     .hero-area {
-        padding-top: 120px;
         padding-bottom: 120px;
     }
 }

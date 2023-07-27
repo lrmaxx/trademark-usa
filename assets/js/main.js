@@ -324,26 +324,26 @@
 
         /* -------------------------------------------------
           11. Video PopUp
-        ------------------------------------------------- */
-        if ($('.video-play').length) {
-            $('.video-play').magnificPopup({
-                type: 'video',
-            });
-        }
+        // ------------------------------------------------- */
+        // if ($('.video-play').length) {
+        //     $('.video-play').magnificPopup({
+        //         type: 'video',
+        //     });
+        // }
 
 
         /* -------------------------------------------------
            12. Project Masonery
-        ------------------------------------------------- */
-        $('.project-active').imagesLoaded(function() {
-            $('.project-active').isotope({
-                itemSelector: '.project-item',
-                percentPosition: true,
-                masonry: {
-                    columnWidth: 1
-                }
-            })
-        });
+        // ------------------------------------------------- */
+        // $('.project-active').imagesLoaded(function() {
+        //     $('.project-active').isotope({
+        //         itemSelector: '.project-item',
+        //         percentPosition: true,
+        //         masonry: {
+        //             columnWidth: 1
+        //         }
+        //     })
+        // });
 
 
         /* -------------------------------------------------
@@ -371,35 +371,35 @@
         /* -------------------------------------------------
            14. Project Page Filter
         ------------------------------------------------- */
-        $(".project-page-filter li").on('click', function() {
-            $(".project-page-filter li").removeClass("current");
-            $(this).addClass("current");
+        // $(".project-page-filter li").on('click', function() {
+        //     $(".project-page-filter li").removeClass("current");
+        //     $(this).addClass("current");
 
-            var selector = $(this).attr('data-filter');
-            $('.project-page-active').imagesLoaded(function() {
-                $(".project-page-active").isotope({
-                    itemSelector: '.project-item',
-                    filter: selector,
-                    percentPosition: true,
-                    masonry: {
-                        columnWidth: 1
-                    }
-                });
-            });
+        //     var selector = $(this).attr('data-filter');
+        //     $('.project-page-active').imagesLoaded(function() {
+        //         $(".project-page-active").isotope({
+        //             itemSelector: '.project-item',
+        //             filter: selector,
+        //             percentPosition: true,
+        //             masonry: {
+        //                 columnWidth: 1
+        //             }
+        //         });
+        //     });
 
-        });
+        // });
 
 
         /* -------------------------------------------------
            15. Project Two Popup
         ------------------------------------------------- */
-        $('.project-two-item .popup-btn').magnificPopup({
-            type: 'image',
-            gallery: {
-                enabled: true,
-                navigateByImgClick: true,
-            },
-        });
+        // $('.project-two-item .popup-btn').magnificPopup({
+        //     type: 'image',
+        //     gallery: {
+        //         enabled: true,
+        //         navigateByImgClick: true,
+        //     },
+        // });
 
         /* -------------------------------------------------
            16. Skillbar
