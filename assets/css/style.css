@@ -141,7 +141,14 @@ footer:after {
     width: 100%;
     height: 100%;
 }
-
+.apply_btn{
+    position: fixed;
+    top:50%;
+    left:-60px;
+    z-index: 999;
+    transform: rotate(-90deg);
+    
+}
 .custom_form{
     top:20%;
     left:0;
@@ -1031,8 +1038,8 @@ a.theme-btn.btn-small {
 
 .back-to-top {
     position: fixed;
-    bottom: 25px;
-    right: 25px;
+    bottom: 145px;
+    right: 60px;
     width: 50px;
     height: 50px;
     z-index: 99;
@@ -7173,7 +7180,8 @@ h6,
 
 @media only screen and (min-width: 1200px) {
     .consulting-firm-image {
-        margin-right: -260px;
+        margin-left: -130px;
+        margin-right: 130px;
     }
 }
 
